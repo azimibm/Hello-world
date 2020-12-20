@@ -1,0 +1,46 @@
+body {
+	font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+	background-color: lavender;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#navbar, footer {
+	margin:0px auto;
+	width: 620px;
+}
+
+#navbar {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.link:hover{
+	background-color: thistle;
+}
+		
+#navbar a:link, a:visited {
+	padding: 12px;
+}
+		
+#logo {
+	vertical-align: middle;
+}
+
+footer {
+	width: 620px;
+}
+		
+footer ul li {
+	margin: 10px 0px;
+}
+		
+script {
+	display: none;
+}
+		
+a:link {
+	text-decoration: none;
+}
