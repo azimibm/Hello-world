@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipes</title>	
+	<link rel="stylesheet" type="text/css" href="general.css">
+	<style>
+		/*---------form-wrapper------*/
+		#form-wrapper {
+			width: 680px;
+			margin:5px auto;
+		}
+		
+		#form-wrapper h1 {
+			text-align: center;
+		}
+		
+		#instructions h3, h4, button {  
+			margin: 10px;
+		}
+		
+		#instructions .rcpDetail {
+		    background-color: thistle;
+			border: 1px solid purple;
+			margin: 20px 0px;
+			box-shadow: 5px 5px 5px #888888;
+		}
+			
+		.rcpDetail li, #ingredients li, #instructions li {
+			font-weight: normal;
+		}
+		
+		.button {
+			padding: 15px;
+			background-color: #c9c9d6;
+		}
+		
+		.timer {
+			color: white;
+		}
+				
+	</style>	
+</head>
+<body>	
+	<div id="navbar">
+		<span class="nav"><img src="images/logo-resized-50.jpg" id="logo"></span>
+		<span class="nav link"><a href="index.html">Home</a></span>
+		<span class="nav link"><a href="about.html">About</a></span>
+		<span class="nav link"><a href="recipes.html">Recipes</a></span>
+		<span class="nav link"><a href="contact.html">Contact Us</a></span>
+	</div>
+	
+	<div id="form-wrapper" class="myform">
+		<h1>Recipes</h1>
+		<div id="list"></div>
+		<div id="instructions"></div>
+		<footer>
+			<ul type="none">
+				<li><a class="link" href="index.html">Home</a></li>
+				<li><a class="link" href="about.html">About</a></li>
+				<li><a class="link" href="recipes.html">Recipes</a></li>
+				<li><a class="link" href="contact.html">Contact Us</a></li>
+			</ul>
+			<p>(&copy) 2020</p>
+		</footer>
+	</div>
+	<script src="recipe.js"></script>
+</body>
+</html>
