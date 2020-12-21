@@ -1,0 +1,324 @@
+body {
+	font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	display: block;
+}
+
+#reg-header {
+	height: 100px;
+}
+
+link {
+	display: none;
+}
+
+div {
+	display: block;
+}
+
+section {
+	display: block;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.banner {
+	position: fixed;
+	top: 0px;
+    height:70px;
+    width: 100%;
+	text-align: center;
+}
+
+#banImg {
+	margin: 0px;
+	/*width: 100%;*/
+	height: 100%;
+	object-fit: contain;
+	/*display: inline-block;*/
+	text-align: center;
+}
+
+.close {
+	position: fixed;
+	border: 2px solid #000000;
+	top: 0px;
+	padding: 2px 4px;
+	vertical-align: top;
+	
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+#navigation {
+	position: relative;
+	width: 100%;
+	top: 70px;
+}
+
+nav {
+	display: block;
+}
+
+.navLogo {
+	width: 25%;
+	float: left;
+}
+
+.navMenu {
+	 width: 25%;
+	 float: right;
+	 margin: 10px;
+	 font-size: 15pt;
+}
+
+.navMenu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+}
+
+.menu ul li a:hover {
+	color: #d69000;
+}
+
+#bigImg {
+	width: 100%;
+	height: 300px;
+	background: url('images/pic1.jpg');
+	background-size: cover;
+	/*position: relative;*/
+	text-align: center;
+	margin-top: 5px;
+}
+
+#bigImg h1 {
+	margin: 0px auto;
+	position: relative;
+	text-align: center;
+	top: 30%;
+	font-size: 30pt;
+	padding: 1em;
+	color: white;
+	text-shadow: 3px 1px 1px black;
+}
+
+.line {
+	color: #e8dfdf;
+	height: 2px;
+	text-align: center;
+}
+			
+.container {
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+			
+#heading {
+	text-align: center;
+}
+
+#registerForm, #requestForm {
+	margin: 2em 0 0;
+}
+
+#registerForm input, #requestForm input{
+	display: block;
+}
+			
+.wrapper {
+	padding: 3em;
+	min-height: 100%;
+	text-align: center;
+}
+
+.width-60 {
+	width: 60%;
+	margin: auto;
+}
+
+#headState {
+	text-align: left;
+}
+
+.formDiv input {
+	display: block;
+    margin: 0.3em;
+}
+
+h3.regTitle, h3.req-title {
+	text-align: left;
+}
+
+.req-input input{
+	width: 90%;
+	padding: 15px;
+}
+
+.req-radio {
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	background-color: #f3f3f3;
+	padding: 1em;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 5px;
+	/*object-fit: contain;*/
+}
+
+.radio-label {
+	vertical-align: top;
+}
+
+.req-radio .food-style, .req-radio .food-tip {
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.food-style, .food-tip {
+	text-align: center;
+}
+
+#req-adr, #req-style, #req-rest, #req-tip {
+	margin-bottom: 40px;
+}
+
+input {
+	padding: 15px;
+	vertical-align: top;
+	background-color: #f3f3f3;
+	border: 1px solid #f3f3f3;
+	outline: none;
+}
+
+.reg-input {
+	width: 45%;
+	float: left;
+	padding: 15px;
+}
+
+.reg-input input {
+	width: 90%;
+	margin: 0.3em;
+}
+
+.reg-btn {
+	margin-left: 20px !important;
+}
+
+.req-btn {
+	background-color: black;
+	color: white;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.req-btn:hover {
+	background-color: #ccad52;
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.reg-btn:hover {
+	background-color: #000000;
+	color: white;
+	transition: all 0.3s ease;
+}
+
+footer {
+	padding:10px;
+	background: #202020;
+	color: white;
+	display: block;
+}
+
+.sitemap {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+			
+.sitemap li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	list-style-type: none;
+}
+
+.sitemap a {
+	color: white;
+	text-decoration: none;
+}
+
+.sitemap ul {
+	margin: 40px 30px 30px 0px;
+	padding: 0px;
+}
+
+.f-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 3px;
+	background-color: #eaeaea
+}
+
+.part1 {
+	padding: 20px 20px 50px 20px;
+	text-align: center;
+}
+
+#copyright, .version {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+#findDriver {
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+.zip {
+	/*outline: solid;*/
+	border: 2px solid #d69000;
+}
+
+
+.button {
+	width: 40px;
+	height: 49px;
+	color: white;
+	background-color: orange;
+	font-size: 12pt;
+	border: 2px #d69000;
+}
+
+#goBtn:hover {
+	cursor: grab;
+}
+a {
+	text-decoration: none;
+}

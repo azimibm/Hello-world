@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+	    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Request</title>
+		<link rel="stylesheet" type="text/css" href="style.css"></link>
+	</head>
+	<body>
+		<header id="reg-header">
+			<div id="navBar">
+				<a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+			</div>
+		</header>
+		<section id="main" class="container">
+			<div id="heading">
+				<h1>SUBMIT YOUR REQUEST</h1>
+				<hr class="line"/>
+			</div>
+			<div class="wrapper width-60">
+				<p id="headState">Please fill out the form bellow:</p>
+				<form id="requestForm" action="#">
+					<div id="req-adr" class="formDiv">
+						<h3 class="req-title">Address</h3>
+						<div class="req-input">
+							<input  type="email" name="email" placeholder="Email">
+						</div>
+					</div>
+					<div id="req-style" class="formDiv">
+						<h3 class="req-title">Choose Your Style</h3>
+						<div class="req-radio">
+							<label class="radio-label" for="classic">Classic<br/> This is a classic treatment<br/><br/></label>
+							<input class="food-style" id="classic" type="radio" name="f-style" placeholder="Classic" value="3" required>
+						</div>
+						<div class="req-radio">
+							<label class="radio-label" for="premium">Premium<br/>Pinky's up<br/><br/></label>
+							<input class="food-style" id="premium" type="radio" name="f-style" placeholder="Premium" value="5">
+						</div>
+						<div class="req-radio">
+							<label class="radio-label" for="royal">Royal<br/>Your food is served on a sliver platter.<br/>Literally</br/></label>
+							<input class="food-style" id="royal" type="radio" name="f-style" placeholder="Royal" value="10" required>
+						</div>
+					</div>
+					<div id="req-rest" class="formDiv">
+						<h3 class="req-title">Restaurant</h3>
+						<div class="req-input">
+							<input  type="text" name="name" placeholder="Name">
+						</div>
+					</div>
+					<div id="req-tip" class="formDiv">
+						<h3 class="req-title">Tip:</h3>
+						<div class="req-radio">
+							<label class="radio-label" for="low-tip">10%<br/>They did their job<br/><br/><br/></label>
+							<input class="food-tip" id="low-tip" type="radio" name="f-tip" placeholder="low-tip" value="10" required>
+						</div>
+						<div class="req-radio"> 
+							<label class="radio-label" for="mid-tip">15%<br/>They made you feel special.<br/><br/><br/></label>
+							<input class="food-tip" id="mid-tip" type="radio" name="f-tip" placeholder="mid-tip" value="15" required>
+						</div>
+						<div class="req-radio"> 
+							<label class="radio-label" for="hogh-tip">20%<br/>I wanna give them more, but this is all I have.<br/><br/></label>
+							<input class="food-tip" id="high-tip" type="radio" name="f-tip" placeholder="high-tip" value="20" required>
+						</div>
+					</div>
+					<div id="req-price">
+						<h1>Total: $<span id="totalprice"></span></h1>
+						<input type="submit" class="req-btn" value="REQUEST" action="#">
+					</div>
+				</form>		
+			</div>
+		</section>
+		<footer>
+			<div class="container"> 
+				<div id="sitemap" class="sitemap">
+					<div class="f-title">
+						<h3>Site Map</h3>
+					</div>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="about.html">How it works!</a></li>
+					</ul>
+				</div>
+				<div id="menu" class="sitemap">
+					<div class="f-title">
+						<h3>Legal</h3>
+					</div>
+					<ul>
+						<li><a href="">Privacy</a></li>
+						<li><a href="">Policy</a></li>
+						<li><a href="">Terms</a></li>
+					</ul>
+				</div>
+				<div id="sitemap" class="sitemap">
+					<div class="f-title">
+						<h3>Food is Life :)</h3>
+					</div>
+				</div>
+			</div>
+			<section id="copyright">
+				<p>&copy; 2020. All rights reserved.<p>
+				<p class="version">Version 1.0</p>
+			</section>
+		</footer>
+		
+		<script src="totals.js"></script>
+	</body>
+</html>
+<body>
+
+//if you want radio buttons to deselect by chossing the other one give the same name to all of radios that are in the same category
